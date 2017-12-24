@@ -1,0 +1,33 @@
+body {  background: #333333;  color: #333333;  font: 14px/1.4286 Georgia,"Times New Roman",serif;
+  letter-spacing: .06em;
+  padding: 20px;
+}
+
+/** Typography **/
+
+h1 {  font-size: 2em; /* 28px */
+  line-height: 1.4286em; /* 40px */
+  margin-top: 0.7143em;
+  margin-bottom: 0em;
+}  .title {    margin-top: 0;
+	}
+  h2 {  font-size: 1.1429em; /* 16px */
+  line-height: 1.25em; /* 20px */
+  margin-top: 2em;
+  margin-bottom: .5em;}
+p {  font-size: 1em; /* 14px */
+  line-height: 1.4286em; /* 20px */
+  margin: 0 0 1.4286em 0;
+}
+
+/** Headers **/
+/** Content **/#content {  background: #eeeeee no-repeat;  float: left;
+  text-align: justify;  padding: 30px;  position: relative;  width: 510px;}#preview {  position: relative;
+  margin-bottom: 1.4268em;  margin-left: -10px;  margin-top: 1.4268em;
+}.frame {  position: absolute;}/** Navigator **/
+#navigator {  background: #222222;  color: #eeeeee;  margin-left: 590px;  padding: 30px;  position: relative;}#navigator #controls {
+	}#navigator .section ul {  float: left;
+}#navigator .section li {  text-align: center;
+  float: left;  width: 100px;  margin: 10px;}  /** Footer **/#footer {
+	clear: both;
+}

@@ -1,0 +1,248 @@
+/*
+ * Global
+ */
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: url(/img/background.jpg);
+	font: 0.85em/1.8em "Century Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #3a260b;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: #3a260b;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: bold;
+}
+
+/*
+ * Utility
+ */
+ 
+.clear {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*
+ * Shells
+ */
+
+#header { 
+	margin: 0 auto;
+	width: 940px;
+	padding-top: 20px;
+}
+
+#wrapper {
+	background: url(/img/top-background.jpg) repeat-x top center;
+	height: 100%;
+}
+
+#body {
+	margin: 0 auto;
+	width: 920px;
+	padding: 0 10px 117px 10px;
+}
+
+/*
+ * Content
+ */
+
+#mainBox {
+	background: url(/img/main-menu-background.jpg) no-repeat left;
+	height: 255px;
+	margin: 10px 0;
+}
+
+#mainBox ul {
+	background: url(/img/content-mainbox.jpg) no-repeat right;
+	list-style: none;
+	height: 231px;
+	margin-left: 155px;
+	padding: 12px 0;
+}
+
+#mainBox ul li {
+	position: relative;
+	margin-bottom: 33px;
+	clear: both;
+}
+
+#mainBox ul li a {
+	display: block;
+	padding-left: 165px;
+	width: 226px;
+	height: 33px;
+	line-height: 33px;
+}
+
+#mainBox ul li a.hover {
+	padding-top: 33px;
+	overflow: hidden;
+	height: 0;
+}
+
+#blog a {
+	background: url(/img/main-menu-blog.jpg) no-repeat;
+}
+
+#designs a {
+	background: url(/img/main-menu-designs.jpg) no-repeat;
+}
+
+#projects a {
+	background: url(/img/main-menu-projects.jpg) no-repeat;
+}
+
+#apps a {
+	background: url(/img/main-menu-apps.jpg) no-repeat;
+}
+
+#mainBox a:hover {
+	background-position: 0 -33px;
+}
+
+#mainBox a.hover:hover {
+	padding-top: 0px;
+	height: 33px;
+}
+
+.columnBox {
+	background: url(/img/content-smallbox.jpg) no-repeat;
+	padding: 5px 15px;
+	width: 270px;
+	min-height: 240px;
+}
+
+.columnBox h1 {
+	text-align: right;
+	margin-bottom: 5px;
+}
+
+.columnBox ul {
+	list-style: none;
+}
+
+.columnBox ul li {
+	border-bottom: 1px dashed #8f7955;
+	padding: 5px;
+	text-align: right;
+	font-style: italic;
+}
+
+#middleBox {
+	margin: 0 10px;
+}
+
+/*
+ * Sections
+ */
+
+#footer {
+	position: fixed;
+	background: url(/img/footer-background.jpg);
+	bottom: 0;
+	width: 100%;
+}
+
+#menu {
+	height: 35px;
+}
+
+#menu a {
+	color: #ceb380;
+	font-weight: bold;
+}
+
+#menu ul {
+	list-style: none;
+	height: 35px;
+}
+
+#menu ul#left {
+	float: left;
+	height: 35px;
+	width: 45%;
+}
+
+#menu ul#right {
+	float: right;
+	width: 45%;
+	height: 35px;
+}
+
+#menu ul#left li {
+	float: left;
+	margin-right: 20px;
+	line-height: 29px;
+}
+
+#menu ul#right li {
+	float: right;
+	margin-left: 20px;
+	line-height: 29px;
+}
+
+#menu .collapse {
+	cursor: pointer;
+}
+
+#toolbar {
+	background: url(/img/toolbar-background.jpg) no-repeat;
+	height: 72px;
+	text-align: right;
+}
+
+#toolbar #services {
+	float: right;
+	background: url(/img/toolbar-services-background.jpg) no-repeat;
+	text-align: left;
+	display: inline;
+	height: 72px;
+	padding-left: 10px;
+}
+
+#toolbar #services h2 {
+	font-size: .75em;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin-top: 1px;
+	margin-bottom: 6px;
+}
+
+#toolbar #services ul {
+	width: 290px;
+	list-style: none;
+	font-size: .83em;
+	font-weight: bold;
+	line-height: 2em;
+}
+
+#toolbar #services ul * {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#toolbar #services ul li {
+	float: left;
+	padding-left: 5px;
+	width: 85px;
+}

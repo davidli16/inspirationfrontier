@@ -1,0 +1,1 @@
+$(function() {// Add some frames$('#content #preview').prepend('<img src="images/preview-frame.png" alt="" class="frame" />');$('#navigator li').prepend('<img src="images/item-frame.png" alt="" class="frame" />');// Round some corners$('#navigator, #content').roundCorners(10);});
